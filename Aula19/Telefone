@@ -1,0 +1,27 @@
+package Classes;
+
+public class Telefone {
+
+    // Atributos
+    private String ddd;
+    private String fone;
+    
+    // Getters
+    public String getDdd() {
+        return ddd;
+    }
+
+    public String getFone() {
+        return fone;
+    }
+
+    // Setters
+    public void setDdd(String ddd) {
+        this.ddd = ddd;
+    }
+
+    public void setFone(String fone) {
+        this.fone = fone;
+    }
+    
+}
