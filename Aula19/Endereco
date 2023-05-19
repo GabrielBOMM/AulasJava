@@ -1,0 +1,28 @@
+package Classes;
+
+public class Endereco {
+     
+    // Atributos
+    private String logradouro;
+    private int numero;
+    
+    // Getters
+    public String getLogradouro() {
+        return logradouro;
+    }
+
+    public int getNumero() {
+        return numero;
+    }
+
+    // Setters
+    public void setLogradouro(String logradouro) {
+        this.logradouro = logradouro;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+    
+    
+}
